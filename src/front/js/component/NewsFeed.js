@@ -42,7 +42,7 @@ const NewsFeed = () => {
     fetchNews();
   }, []);
 
-  const initialArticles = news.slice(0, 3);
+  const initialArticles = fetchNews.slice(0, 3);
 
   if (error) {
     return <div className="news-feed">{error}</div>;

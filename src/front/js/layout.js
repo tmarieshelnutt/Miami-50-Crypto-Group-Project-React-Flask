@@ -15,7 +15,7 @@ import { Login } from "./component/Login";
 import { Register } from "./component/Register";
 import { Passie } from "./component/Passie";
 import Private from "./component/private";
-import NewsFeed from "./component/NewsFeed";
+// import NewsFeed from "./component/NewsFeed";
 import CryptoCard from "./component/CryptoCard";
 import Trending from "./component/trending";
 import Portfolio from "./component/Portfolio";
@@ -57,7 +57,7 @@ const Layout = () => {
             />
             <Route path="/register" element={<Register />} />
             <Route path="/passie" element={<Passie />} />
-            <Route path="/newsfeed" element={<NewsFeed />} />
+            {/* <Route path="/newsfeed" element={<NewsFeed />} /> */}
             <Route path="/demo" element={<Demo />} />
             <Route path="/single/:theid" element={<Single />} />
             <Route path="*" element={<h1>Not found!</h1>} />
